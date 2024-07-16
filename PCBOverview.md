@@ -6,8 +6,7 @@ graph TD;
     CS(Select Components)-->
     SD(Draw schematic)-->
     PCB(Design PCB)-->
-    GG(Generate Gerber/Drill Files)-->
-    UploadGerber(Upload Gerber/Drill files)-->
+    UploadGerber(Generate and upload files for manufacturer)-->
     Order(Order PCB)-->
     Wait-->
     Done(Yay)
